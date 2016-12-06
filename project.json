@@ -1,0 +1,8 @@
+{
+  "name": "playground",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::529276214230:role/playground_lambda_function",
+  "environment": {}
+}
