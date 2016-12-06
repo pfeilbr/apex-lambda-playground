@@ -1,0 +1,50 @@
+{
+  "resource": "/playground_api-gateway",
+  "path": "/playground_api-gateway",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "*/*",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "US",
+    "Content-Type": "multipart/form-data; boundary=------------------------8baec5d8d25db4ad",
+    "Host": "zmzijgzfl3.execute-api.us-east-1.amazonaws.com",
+    "User-Agent": "curl/7.43.0",
+    "Via": "1.1 6849a836e3babcc6757bacb538472a27.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "BfovWqD8GCB8VQbwZ6ecLhhFpOWT_6lDoBgm5pr_0g3PB9bojI1JjA==",
+    "X-Forwarded-For": "100.11.109.199, 54.239.145.50",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "queryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "accountId": "529276214230",
+    "resourceId": "gax857",
+    "stage": "prod",
+    "requestId": "fd8390a8-bbc8-11e6-bc17-2b8a31ad57df",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "apiKey": null,
+      "sourceIp": "100.11.109.199",
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "curl/7.43.0",
+      "user": null
+    },
+    "resourcePath": "/playground_api-gateway",
+    "httpMethod": "POST",
+    "apiId": "zmzijgzfl3"
+  },
+  "body": "--------------------------8baec5d8d25db4ad\r\nContent-Disposition: form-data; name=\"name\"\r\n\r\ntest\r\n--------------------------8baec5d8d25db4ad\r\nContent-Disposition: form-data; name=\"filedata\"; filename=\"README.md\"\r\nContent-Type: application/octet-stream\r\n\r\n# apex-lambda-playground\n\nlearn [Apex](http://apex.run/) serverless architecture\n\n**Example Session**\n\n```sh\napex init\napex deploy\napex logs --follow\napex invoke hello\necho -n '{\"name\": \"brian\"}' | apex invoke hello\napex list\necho -n '{\"q\": \"heroku\"}' | apex invoke search\n```\n\r\n--------------------------8baec5d8d25db4ad--\r\n",
+  "isBase64Encoded": false
+}

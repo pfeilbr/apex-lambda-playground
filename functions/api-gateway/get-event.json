@@ -1,0 +1,54 @@
+{
+  "resource": "/playground_api-gateway",
+  "path": "/playground_api-gateway",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Encoding": "gzip, deflate, sdch, br",
+    "Accept-Language": "en-US,en;q=0.8,nb;q=0.6",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "US",
+    "Host": "zmzijgzfl3.execute-api.us-east-1.amazonaws.com",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36",
+    "Via": "1.1 dbdd67063f01c39bd9e0f02db8431258.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "dItek3DoZRga1H9Pcfm3err-rAeaVMUUO3WCqn9oILYcDLv-tfJmhg==",
+    "X-Forwarded-For": "100.11.109.199, 54.182.230.65",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "queryStringParameters": {
+    "foo": "bar"
+  },
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "accountId": "529276214230",
+    "resourceId": "gax857",
+    "stage": "prod",
+    "requestId": "aa284dc5-bbc8-11e6-8fab-45eeb74a4710",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "apiKey": null,
+      "sourceIp": "100.11.109.199",
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36",
+      "user": null
+    },
+    "resourcePath": "/playground_api-gateway",
+    "httpMethod": "GET",
+    "apiId": "zmzijgzfl3"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
